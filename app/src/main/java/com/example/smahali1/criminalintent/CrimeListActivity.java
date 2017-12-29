@@ -2,10 +2,13 @@ package com.example.smahali1.criminalintent;
 
 import android.support.v4.app.Fragment;
 
-public class CrimeActivity extends SingleFragmentActivity {
+/**
+ * Created by SMAHALI1 on 12/28/2017.
+ */
 
+public class CrimeListActivity extends SingleFragmentActivity {
     @Override
     protected Fragment createFragment() {
-        return new Fragment();
+        return new CrimeListFragment();
     }
 }
